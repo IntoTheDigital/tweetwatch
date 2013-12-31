@@ -1,4 +1,4 @@
 tweetwatch
 ==========
 
-A Python script to watch/display/log searches through Twitter's streaming API.
+A Python module to collect and analyze tweets through Twitter's streaming API.
