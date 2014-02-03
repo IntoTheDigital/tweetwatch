@@ -495,24 +495,3 @@ class Stream:
                 print >> sys.stderr, str(errdict)
                 time.sleep(60)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
