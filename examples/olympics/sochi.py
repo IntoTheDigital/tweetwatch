@@ -8,12 +8,12 @@ import time
 import simplejson as json
 
 apiToken = {
-    'consumerKey': 'your API value',
-    'consumerSecret': 'your API value',
-    'accessToken': 'your API value',
-    'accessTokenSecret': 'your API value'}
+    'consumerKey': 'SDzBLwA5rVoNUqitujSlhg',
+    'consumerSecret': 'x4jLSW1HQu2Q9M10ozOob146NuCv0SAMyxdtrx3KQ',
+    'accessToken': '17658141-2xzDejRcVs4oXkTQ1HPkKbLisgpbMZNHw40BJQOuX',
+    'accessTokenSecret': 'M02PufgW3Wp2VSJl4EQtpZd7wPCeIIZRbc62WcfY'}
 
-userAgent = 'tweetwatch / version 0.1.2'
+userAgent = 'hilljb / version 0.1.2'
 
 # create a tpm meter; record 180 seconds at a time
 tpm = tweetwatch.meters.TPM(180)
@@ -105,8 +105,9 @@ def dataFunction(data):
 
 
 
+searchTerms = 'sochi, olympics, olímpics, olimpics, olympiáda, olympiada, olimpijske, olympische, олимпиада, алімпійскія, olümpiamängud, olympialaiset, olympiques, olympiade, ολυμπιακοί, olimpia, Ólympíuleikar, olympia, olímpicos'
 
-searchTerms = 'sochi'
+searchTerms = 'sochi, teamusa'
 searchTerms += ', olympics' # english, danish, filipino, romanian, swedish
 searchTerms += ', olympi' # dutch (olympische), finnish (olympialaiset)
                           # french (olympiques), czech (olympiáda), german (olympiade)
