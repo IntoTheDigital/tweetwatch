@@ -8,10 +8,10 @@ import time
 import simplejson as json
 
 apiToken = {
-    'consumerKey': 'SDzBLwA5rVoNUqitujSlhg',
-    'consumerSecret': 'x4jLSW1HQu2Q9M10ozOob146NuCv0SAMyxdtrx3KQ',
-    'accessToken': '17658141-2xzDejRcVs4oXkTQ1HPkKbLisgpbMZNHw40BJQOuX',
-    'accessTokenSecret': 'M02PufgW3Wp2VSJl4EQtpZd7wPCeIIZRbc62WcfY'}
+    'consumerKey': 'your API key',
+    'consumerSecret': 'your API key',
+    'accessToken': 'your API key',
+    'accessTokenSecret': 'your API key'}
 
 userAgent = 'hilljb / version 0.1.2'
 
