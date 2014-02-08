@@ -105,7 +105,6 @@ def dataFunction(data):
 
 
 
-searchTerms = 'sochi, olympics, olímpics, olimpics, olympiáda, olympiada, olimpijske, olympische, олимпиада, алімпійскія, olümpiamängud, olympialaiset, olympiques, olympiade, ολυμπιακοί, olimpia, Ólympíuleikar, olympia, olímpicos'
 
 searchTerms = 'sochi, teamusa'
 searchTerms += ', olympics' # english, danish, filipino, romanian, swedish
