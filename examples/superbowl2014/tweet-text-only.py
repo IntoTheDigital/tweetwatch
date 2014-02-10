@@ -10,7 +10,9 @@
 #
 # It outputs one file:
 #   tweet_texts :   A file containing only the text of the returned tweets.
-#                   Each tweet's text occupies one line.
+#                   Each tweet's text occupies one line. In this version, the
+#                   text is placed in lower case and special characters (\n\r)
+#                   are removed.
 
 
 input_file = '/media/usb0/superbowl/superbowlTweetData/superbowl_data_all'
@@ -23,6 +25,7 @@ except ImportError:
     import json
 
 
+
 # open the file tweet_texts for writing
 f_tweet_texts = open(tweet_texts, 'w')
 
@@ -32,10 +35,12 @@ with open(input_file) as f:
         try:
             parsed_line = json.loads(line)
             if 'text' in parsed_line:
-                f_tweet_texts.write(parsed_line['text'])
+                t = parsed_line['text']
+                t = t.replace('\n','')
+                t = t.replace('\r','')
+                t = t.replace('  ', ' ')
+                f_tweet_texts.write(t + '\n')
         except:
             pass
 
 f_tweet_texts.close()
-
-
