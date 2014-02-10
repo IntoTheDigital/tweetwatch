@@ -15,8 +15,8 @@
 #   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 __author__ = 'Jason B. Hill (jason@jasonbhill.com)'
-__copyright__ = 'Copyright (c) 2013'
-__version__ = '0.1.1'
+__copyright__ = 'Copyright (c) 2014'
+__version__ = '0.1.2'
 
 #   Thanks to Room 214 (www.room214.com) in Boulder, CO for involving me with
 #   this project. 
