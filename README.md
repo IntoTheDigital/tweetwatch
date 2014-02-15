@@ -41,8 +41,10 @@ subdirectory of your working directory.
 
 ## Example Usage
 
-See the `examples` directory for some more involved samples. For this example, we have the following
-directory structure:
+See the `examples` directory for some more involved samples. If this gains any popularity at all,
+I'll flush out some more details here. (We can do many things, including: limiting searches by user
+language or geographic location, analyzing how many tweets per minute are coming in, etc.) For this
+example, we have the following directory structure:
 
 * tweetwatch (directory that contains `__init__.py`, `meters.py`,  and `stream.py`)
 * mysearch.py
