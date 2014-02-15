@@ -45,9 +45,9 @@ See the `examples` directory for some more involved samples. For this example, w
 directory structure:
 
 * tweetwatch
-..* __init__.py
-..* stream.py
-..* meters.py
+** __init__.py
+** stream.py
+** meters.py
 * mysearch.py
 
 where mysearch.py has the following:
