@@ -35,8 +35,21 @@ It's simply a faster and better-developed version of the standard Python json mo
 
 ## Installation
 
-I haven't written a setup script for this module yet. For now, just copy the module's `tweetwatch'
+I haven't written a setup script for this module yet. For now, just copy the module's `tweetwatch`
 directory (which contains a `__init__.py`, `meters.py`, and `stream.py`) so that it is a
 subdirectory of your working directory.
+
+## Example Usage
+
+See the `examples` directory for some more involved samples. For this example, we have the following
+directory structure:
+
+* tweetwatch
+..* __init__.py
+..* stream.py
+..* meters.py
+* mysearch.py
+
+where mysearch.py has the following:
 
 
