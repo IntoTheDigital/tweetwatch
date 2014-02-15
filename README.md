@@ -44,12 +44,37 @@ subdirectory of your working directory.
 See the `examples` directory for some more involved samples. For this example, we have the following
 directory structure:
 
-* tweetwatch
-** __init__.py
-** stream.py
-** meters.py
+* tweetwatch (directory that contains `__init__.py`, `meters.py`,  and `stream.py`)
 * mysearch.py
 
 where mysearch.py has the following:
+
+```python
+#!/usr/bin/python
+
+# load the Twitter streaming API module
+import tweetwatch.stream
+
+# set your API token
+apiToken = {
+    'consumerKey': 'xxxx',
+    'consumerSecret': 'xxxx',
+    'accessToken': 'xxxx',
+    'accessTokenSecret': 'xxxx'}
+
+# define search terms
+searchTerms = 'broncos, seahawks'
+
+# define a data function (what to do with incoming search data)
+def dataFunction(data):
+    print data
+
+# configure the stream search
+S = tweetwatch.stream.Stream(apiToken, searchTerms, dataFunction)
+
+# run the search
+S.configure()
+S.start()
+```
 
 
