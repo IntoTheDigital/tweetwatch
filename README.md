@@ -33,3 +33,10 @@ Also, we use the Python Simplejson module and fall back to the standard json mod
 doesn't exist. It is recommended that you install simplejson if it isn't currently on your system.
 It's simply a faster and better-developed version of the standard Python json module.
 
+## Installation
+
+I haven't written a setup script for this module yet. For now, just copy the module's `tweetwatch'
+directory (which contains a `__init__.py`, `meters.py`, and `stream.py`) so that it is a
+subdirectory of your working directory.
+
+
